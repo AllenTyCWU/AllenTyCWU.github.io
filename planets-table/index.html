@@ -20,18 +20,18 @@
                  Data about the planets of our solar system (Planetary facts taken from <a href="http://nssdc.gsfc.nasa.gov/planetary/factsheet/">Nasa's Planetary Fact Sheet - Metric</a>).
                     </caption>
                         <colgroup>
+                            <col title="Type of planet">
                             <col title="Name">
-                            <col>
-                            <col>
-                            <col>
-                            <col>
-                            <col>
-                            <col>
-                            <col>
-                            <col>
-                            <col>
-                            <col>
-                            <col>
+                            <col title="Mass">
+                            <col title="Diameter">
+                            <col title="Density">
+                            <col title="Gravity">
+                            <col title="Length of day">
+                            <col title="Distance from the Sun">
+                            <col title="Mean temperature">
+                            <col title="Number of moons">
+                            <col title="Notes">
+                            <col title="image">
                         </colgroup>
 
                         <!-- Table structure: 10 rows, 13 collumns-->
@@ -104,8 +104,8 @@
                                 <td><img src="images/mars.jpg" alt="Picture of the planet Mars" ></td>
                             </tr>
                             <tr>
-                                <th rowspan="4">Jovian planets</th>
-                                <th rowspan="2">Gas giants</th>
+                                <th rowspan="4" scope="rowgroup">Jovian planets</th>
+                                <th rowspan="2" scope="rowgroup">Gas giants</th>
                                 <td>Jupiter</td>
                                 <td>1898</td>
                                 <td>142,984</td>
@@ -132,7 +132,7 @@
                                 <td><img src="images/saturn.jpg" alt="Picture of the planet Saturn"></td>
                             </tr>
                             <tr>
-                                <th rowspan="2">Ice giants</th>
+                                <th rowspan="2" scope="rowgroup">Ice giants</th>
                                 <td>Uranus</td>
                                 <td>86.8</td>
                                 <td>51,118</td>
@@ -159,7 +159,7 @@
                                 <td><img src="images/neptune.jpg" alt="Picture of the planet Neptune"></img></td>
                             </tr>
                             <tr>
-                                <th colspan="2">Dwarf planets</th>
+                                <th colspan="2" scope="rowgroup">Dwarf planets</th>
                                 <td>Pluto</td>
                                 <td>0.0146</td>
                                 <td>2,370</td>
